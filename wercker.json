@@ -1,0 +1,19 @@
+{
+  "platform_dependencies" : {
+      "commands": [
+        "gem install bundler",
+        "rbenv rehash"
+      ]
+    },
+  "application_dependencies" : {
+      "commands": [
+        "bundle install",
+        "rbenv rehash"
+      ]
+    },
+    "test": {
+      "commands" : [
+        "bundle exec rspec spec -f d"
+      ]
+    }
+  }
