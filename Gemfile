@@ -5,5 +5,5 @@ gem 'json'
 
 group :test do
   gem 'rspec'
-  gem 'rack-rest'
+  gem 'rack-test'
 end
