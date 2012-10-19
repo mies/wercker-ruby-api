@@ -1,12 +1,10 @@
 {
   "customSteps" : {
-    "cwd" : "cd $WERCKER_ROOT",
     "setup_environment" : {
       "commands": [
         "export LANG=en_US.UTF-8",
         "export LC_ALL=en_US.UTF-8",
         "export RAILS_ENV=test",
-        "export CI=true",
         "export WERCKER=true"
       ]
     },
