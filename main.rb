@@ -7,5 +7,5 @@ end
 
 get '/decepticons.json' do
   content_type :json
-  return {:decepticons => ["Megatron", "Soundwave", "Starscream", "Astrotrain"]}
+  return {:decepticons => ["Megatron", "Soundwave", "Starscream", "Astrotrain"]}.to_json
 end
