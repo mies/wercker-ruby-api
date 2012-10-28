@@ -19,11 +19,6 @@
         "bundle install",
         "rbenv rehash"
       ]
-    },
-    "test": {
-      "commands" : [
-        "bundle exec rspec spec -f d"
-      ]
     }
   }
 }
