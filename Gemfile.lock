@@ -8,6 +8,8 @@ GEM
     rack (1.4.1)
     rack-protection (1.2.0)
       rack
+    rack-test (0.6.2)
+      rack (>= 1.0)
     rspec (2.9.0)
       rspec-core (~> 2.9.0)
       rspec-expectations (~> 2.9.0)
@@ -31,6 +33,7 @@ PLATFORMS
 
 DEPENDENCIES
   json
+  rack-test
   rspec
   sinatra
   thin
